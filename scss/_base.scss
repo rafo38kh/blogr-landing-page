@@ -1,0 +1,29 @@
+$color-primary: hsl(240, 10%, 16%);
+$color-secondary: hsl(0, 0%, 100%);
+$color-secondary-dark: hsl(240, 2%, 79%);
+$color-tertiary: hsl(207, 13%, 34%);
+$color-tertiary-dark: hsl(208, 49%, 24%);
+$color-red: hsl(356, 100%, 66%);
+$color-orange: hsl(355, 100%, 74%);
+
+$gradient-orange: hsl(13, 100%, 72%);
+$gradient-red: hsl(353, 100%, 62%);
+$gradient-dark: hsl(237, 17%, 21%);
+$gradient-light: hsl(237, 23%, 32%);
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.6rem;
+}
