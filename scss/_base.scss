@@ -11,6 +11,9 @@ $gradient-red: hsl(353, 100%, 62%);
 $gradient-dark: hsl(237, 17%, 21%);
 $gradient-light: hsl(237, 23%, 32%);
 
+$font-primary: "Overpass", sans-serif;
+$font-secondary: "Ubuntu", sans-serif;
+
 *,
 *::before,
 *::after {
@@ -26,4 +29,11 @@ html {
 
 body {
   font-size: 1.6rem;
+  font-family: $font-primary;
+}
+
+img,
+picture {
+  max-width: 100%;
+  display: block;
 }

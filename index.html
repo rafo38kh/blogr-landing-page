@@ -3,42 +3,294 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css" />
-    <script defer src="js/script.js"></script>
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script defer src="js/script.js"></script>
     <title>Frontend Mentor | [Blogr]</title>
   </head>
   <body>
-    Product Overview Pricing Marketplace Features Integrations Company About
-    Team Blog Careers Connect Contact Newsletter LinkedIn Login Sign Up A modern
-    publishing platform Grow your audience and build your online brand Start for
-    Free Learn More Designed for the future Introducing an extensible editor
-    Blogr features an exceedingly intuitive interface which lets you focus on
-    one thing: creating content. The editor supports management of multiple
-    blogs and allows easy manipulation of embeds such as images, videos, and
-    Markdown. Extensibility with plugins and themes provide easy ways to add
-    functionality or change the looks of a blog. Robust content management
-    Flexible content management enables users to easily move through posts.
-    Increase the usability of your blog by adding customized categories,
-    sections, format, or flow. With this functionality, you’re in full control.
-    State of the Art Infrastructure With reliability and speed in mind,
-    worldwide data centers provide the backbone for ultra-fast connectivity.
-    This ensures your site will load instantly, no matter where your readers
-    are, keeping your site competitive. Free, open, simple Blogr is a free and
-    open source application backed by a large community of helpful developers.
-    It supports features such as code syntax highlighting, RSS feeds, social
-    media integration, third-party commenting tools, and works seamlessly with
-    Google Analytics. The architecture is clean and is relatively easy to learn.
-    Powerful tooling Batteries included. We built a simple and straightforward
-    CLI tool that makes customization and deployment a breeze, but capable of
-    producing even the most complicated sites. Product Overview Pricing
-    Marketplace Features Integrations Company About Team Blog Careers Connect
-    Contact Newsletter LinkedIn
+    <div class="blogr">
+      <section class="blogr__first">
+        <header class="blogr__heading">
+          <div class="blogr__container">
+            <div class="blogr__mobile">
+              <img
+                src="/images/logo.svg"
+                alt=""
+                aria-hidden="true"
+                class="blogr__logo"
+              />
+              <img
+                src="/images/icon-hamburger.svg"
+                alt=""
+                class="blogr__hamburger"
+              />
+            </div>
+            <!-- Menu -->
+            <nav class="blogr__navbar">
+              <ul class="blogr__list">
+                <li class="blogr__list-item">
+                  <a class="blogr__list-link" href="">Product</a>
+                  <ul class="blogr__sublist">
+                    <li class="blogr__sublist-item">
+                      <a href="#" class="blogr__sublist-link">Overview</a>
+                    </li>
+                    <li class="blogr__sublist-item">
+                      <a href="#" class="blogr__sublist-link">Pricing</a>
+                    </li>
+                    <li class="blogr__sublist-item">
+                      <a href="#" class="blogr__sublist-link">Marketplace</a>
+                    </li>
+                    <li class="blogr__sublist-item">
+                      <a href="#" class="blogr__sublist-link">Features</a>
+                    </li>
+                    <li class="blogr__sublist-item">
+                      <a href="#" class="blogr__sublist-link">Integrations</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              <ul class="blogr__list">
+                <li class="blogr__list-item">
+                  <a class="blogr__list-link" href="">Company</a>
+                  <ul class="blogr__sublist">
+                    <li class="blogr__sublist-item">
+                      <a href="#" class="blogr__sublist-link">About</a>
+                    </li>
+                    <li class="blogr__sublist-item">
+                      <a href="#" class="blogr__sublist-link">Team</a>
+                    </li>
+                    <li class="blogr__sublist-item">
+                      <a href="#" class="blogr__sublist-link">Blog</a>
+                    </li>
+                    <li class="blogr__sublist-item">
+                      <a href="#" class="blogr__sublist-link">Careers</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              <ul class="blogr__list">
+                <li class="blogr__list-item">
+                  <a class="blogr__list-link" href="">Connect</a>
+                  <ul class="blogr__sublist">
+                    <li class="blogr__sublist-item">
+                      <a href="#" class="blogr__sublist-link">Contact</a>
+                    </li>
+                    <li class="blogr__sublist-item">
+                      <a href="#" class="blogr__sublist-link">Newsletter</a>
+                    </li>
+                    <li class="blogr__sublist-item">
+                      <a href="#" class="blogr__sublist-link">LinkedIn</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </nav>
+
+            <div class="blogr__heading-buttons">
+              <a href="#" class="blogr__link blogr__link--login">Login</a>
+              <a href="#" class="blogr__link blogr__link--signup">Sign up</a>
+            </div>
+          </div>
+        </header>
+        <div class="blogr__heading-text">
+          <h1 class="blogr__heading-title">A modern publishing platform</h1>
+          <h2 class="blogr__heading-subtitle">
+            Grow your audience and build your online brand
+          </h2>
+          <div class="blogr__heading-links">
+            <a href="#" class="blogr__link blogr__link--start"
+              >Start for Free</a
+            >
+            <a href="#" class="blogr__link blogr__link--learn">Learn More</a>
+          </div>
+        </div>
+      </section>
+
+      <main class="blogr__main">
+        <section class="blogr__future">
+          <h1 class="blogr__future-title">Designed for the future</h1>
+          <div class="blogr__future-box">
+            <picture class="blogr__future-picture">
+              <source
+                srcset="images/illustration-editor-desktop.svg"
+                media="(min-width: 600px)"
+              />
+              <img
+                class="blogr__future-img"
+                src="images/illustration-editor-mobile.svg"
+                alt=""
+                aria-hidden="true"
+              />
+            </picture>
+
+            <div class="blogr__future-text">
+              <h3 class="blogr__future-title">
+                Introducing an extensible editor
+              </h3>
+              <p class="blogr__future-descr">
+                Blogr features an exceedingly intuitive interface which lets you
+                focus on one thing: creating content. The editor supports
+                management of multiple blogs and allows easy manipulation of
+                embeds such as images, videos, and Markdown. Extensibility with
+                plugins and themes provide easy ways to add functionality or
+                change the looks of a blog.
+              </p>
+              <h3 class="blogr__future-title">Robust content management</h3>
+              <p class="blogr__future-descr">
+                Flexible content management enables users to easily move through
+                posts. Increase the usability of your blog by adding customized
+                categories, sections, format, or flow. With this functionality,
+                you’re in full control.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="blogr__infrastructure">
+          <div class="blogr__container blogr__container--mobile">
+            <img
+              src="/images/illustration-phones.svg"
+              alt=""
+              aria-hidden="true"
+              class="blogr__infrastructure-img"
+            />
+          </div>
+          <div class="blogr__infrastructure-text">
+            <h3 class="blogr__infrastructure-title">
+              State of the Art Infrastructure
+            </h3>
+            <p class="blogr__infrastructure-descr">
+              With reliability and speed in mind, worldwide data centers provide
+              the backbone for ultra-fast connectivity. This ensures your site
+              will load instantly, no matter where your readers are, keeping
+              your site competitive.
+            </p>
+          </div>
+        </section>
+
+        <section class="blogr__laptop">
+          <div class="blogr__laptop-box">
+            <picture class="blogr__laptop-picture">
+              <source
+                srcset="images/illustration-laptop-desktop.svg"
+                media="(min-width: 600px)"
+              />
+              <img
+                class="blogr__laptop-img"
+                src="images/illustration-laptop-mobile.svg"
+                alt=""
+                aria-hidden="true"
+              />
+            </picture>
+
+            <div class="blogr__future-text blogr__future-text--right">
+              <h3 class="blogr__future-title">Free, open, simple</h3>
+              <p class="blogr__future-descr">
+                Blogr is a free and open source application backed by a large
+                community of helpful developers. It supports features such as
+                code syntax highlighting, RSS feeds, social media integration,
+                third-party commenting tools, and works seamlessly with Google
+                Analytics. The architecture is clean and is relatively easy to
+                learn.
+              </p>
+              <h3 class="blogr__future-title">Powerful tooling</h3>
+              <p class="blogr__future-descr">
+                Batteries included. We built a simple and straightforward CLI
+                tool that makes customization and deployment a breeze, but
+                capable of producing even the most complicated sites.
+              </p>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="blogr__footer">
+        <div class="blogr__container">
+          <img
+            src="/images/logo.svg"
+            alt=""
+            aria-hidden="true"
+            class="blogr__logo blogr__logo--footer"
+          />
+
+          <div class="blogr__menu">
+            <ul class="blogr__list">
+              <li class="blogr__list-item">
+                <a class="blogr__list-link" href="">Product</a>
+
+                <ul class="blogr__sublist">
+                  <li class="blogr__sublist-item">
+                    <a href="#" class="blogr__sublist-link">Overview</a>
+                  </li>
+                  <li class="blogr__sublist-item">
+                    <a href="#" class="blogr__sublist-link">Pricing</a>
+                  </li>
+                  <li class="blogr__sublist-item">
+                    <a href="#" class="blogr__sublist-link">Marketplace</a>
+                  </li>
+                  <li class="blogr__sublist-item">
+                    <a href="#" class="blogr__sublist-link">Features</a>
+                  </li>
+                  <li class="blogr__sublist-item">
+                    <a href="#" class="blogr__sublist-link">Integrations</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+
+            <ul class="blogr__list">
+              <li class="blogr__list-item">
+                <a class="blogr__list-link" href="">Company</a>
+
+                <ul class="blogr__sublist">
+                  <li class="blogr__sublist-item">
+                    <a href="#" class="blogr__sublist-link">About</a>
+                  </li>
+                  <li class="blogr__sublist-item">
+                    <a href="#" class="blogr__sublist-link">Team</a>
+                  </li>
+                  <li class="blogr__sublist-item">
+                    <a href="#" class="blogr__sublist-link">Blog</a>
+                  </li>
+                  <li class="blogr__sublist-item">
+                    <a href="#" class="blogr__sublist-link">Careers</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+
+            <ul class="blogr__list">
+              <li class="blogr__list-item">
+                <a class="blogr__list-link" href="">Connect</a>
+
+                <ul class="blogr__sublist">
+                  <li class="blogr__sublist-item">
+                    <a href="#" class="blogr__sublist-link">Contact</a>
+                  </li>
+                  <li class="blogr__sublist-item">
+                    <a href="#" class="blogr__sublist-link">Newsletter</a>
+                  </li>
+                  <li class="blogr__sublist-item">
+                    <a href="#" class="blogr__sublist-link">LinkedIn</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>
