@@ -1,5 +1,6 @@
 $color-primary: hsl(240, 10%, 16%);
 $color-secondary: hsl(0, 0%, 100%);
+$color-secondary-light: hsl(18, 96%, 90%);
 $color-secondary-dark: hsl(240, 2%, 79%);
 $color-tertiary: hsl(207, 13%, 34%);
 $color-tertiary-dark: hsl(208, 49%, 24%);
@@ -34,6 +35,5 @@ body {
 
 img,
 picture {
-  max-width: 100%;
   display: block;
 }

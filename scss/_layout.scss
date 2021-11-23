@@ -1,7 +1,15 @@
 .blogr__container {
-  max-width: 810px;
-  width: 100%;
+  position: relative;
+  max-width: 1000px;
+  width: 90%;
   padding: 2rem;
   &--mobile {
+  }
+
+  @media (min-width: 1000px) {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: unset;
   }
 }
