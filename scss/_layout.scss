@@ -3,7 +3,11 @@
   max-width: 1000px;
   width: 90%;
   padding: 2rem;
+  margin: 0 auto;
   &--mobile {
+  }
+  &--footer {
+    padding: 7rem 0 0 0;
   }
 
   @media (min-width: 1000px) {
@@ -11,5 +15,17 @@
     align-items: flex-start;
     justify-content: flex-start;
     max-width: unset;
+    gap: 5rem;
+    &--mobile {
+    }
+    &--footer {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: start;
+      width: 90%;
+      margin: 0 auto;
+      padding: 8rem 2rem;
+    }
   }
 }
