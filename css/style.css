@@ -153,7 +153,7 @@ picture {
     font-size: 1.6rem;
   }
   .blogr__list-link:visited::after, .blogr__list-link:link::after {
-    content: url(../images/icon-arrow-light.svg);
+    content: url(/images/icon-arrow-light.svg);
   }
   .blogr__list-link:hover {
     color: white;
