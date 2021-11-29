@@ -31,8 +31,8 @@ Your users should be able to:
 
 ### Links
 
-- Solution URL: []()
-- Live Site URL: []()
+- Solution URL: [https://www.frontendmentor.io/solutions/blogr-landing-page-with-scss-css-grid-flexbox-bem-and-vanilla-js-pjL5PeeYf](https://www.frontendmentor.io/solutions/blogr-landing-page-with-scss-css-grid-flexbox-bem-and-vanilla-js-pjL5PeeYf)
+- Live Site URL: [https://rafo38kh.github.io/blogr-landing-page/](https://rafo38kh.github.io/blogr-landing-page/)
 
 ## My process
 
