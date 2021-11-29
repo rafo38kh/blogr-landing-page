@@ -52,7 +52,7 @@ picture {
 }
 
 .blogr__first {
-  background-image: url(../images/bg-pattern-intro.svg), linear-gradient(to left top, #ff3d54, #ff8f70);
+  background-image: url(./images/bg-pattern-intro.svg), linear-gradient(to left top, #ff3d54, #ff8f70);
   background-repeat: no-repeat;
   background-size: 140rem, cover;
   border-radius: 0 0 0 10rem;
@@ -129,7 +129,7 @@ picture {
   position: relative;
 }
 .blogr__list-link:visited::after, .blogr__list-link:link::after {
-  content: url("/images/icon-arrow-dark.svg");
+  content: url("./images/icon-arrow-dark.svg");
   position: absolute;
   left: 110%;
   bottom: 5%;
@@ -153,7 +153,7 @@ picture {
     font-size: 1.6rem;
   }
   .blogr__list-link:visited::after, .blogr__list-link:link::after {
-    content: url(../images/icon-arrow-light.svg);
+    content: url(./images/icon-arrow-light.svg);
   }
   .blogr__list-link:hover {
     color: white;
@@ -398,7 +398,7 @@ picture {
 }
 .blogr__infrastructure {
   position: relative;
-  background-image: url(../images/bg-pattern-circles.svg), linear-gradient(to left top, #2c2d3f, #3f4164);
+  background-image: url(./images/bg-pattern-circles.svg), linear-gradient(to left top, #2c2d3f, #3f4164);
   background-repeat: no-repeat;
   background-size: 58rem, cover;
   background-position: bottom 25vh left -9vh, bottom center;

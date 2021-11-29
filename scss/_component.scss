@@ -2,7 +2,7 @@
 
 .blogr {
   &__first {
-    background-image: url(../images/bg-pattern-intro.svg),
+    background-image: url(./images/bg-pattern-intro.svg),
       linear-gradient(to left top, #ff3d54, #ff8f70);
     background-repeat: no-repeat;
     background-size: 140rem, cover;
@@ -88,7 +88,7 @@
         font-weight: 600;
         position: relative;
         &::after {
-          content: url("/images/icon-arrow-dark.svg");
+          content: url("./images/icon-arrow-dark.svg");
           position: absolute;
           left: 110%;
           bottom: 5%;
@@ -127,7 +127,7 @@
           color: $color-secondary-light;
           font-size: 1.6rem;
           &::after {
-            content: url(../images/icon-arrow-light.svg);
+            content: url(./images/icon-arrow-light.svg);
           }
         }
         transition: all 0.3s;
@@ -425,7 +425,7 @@
 
   &__infrastructure {
     position: relative;
-    background-image: url(../images/bg-pattern-circles.svg),
+    background-image: url(./images/bg-pattern-circles.svg),
       linear-gradient(to left top, $gradient-dark, $gradient-light);
     background-repeat: no-repeat;
     background-size: 58rem, cover;
