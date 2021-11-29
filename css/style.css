@@ -79,6 +79,11 @@ picture {
     margin: 0 20rem 0 0;
   }
 }
+.blogr__button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
 @media (min-width: 1000px) {
   .blogr__hamburger {
     display: none;
@@ -93,6 +98,9 @@ picture {
   left: 0%;
   width: 100%;
   border-radius: 0.5rem;
+}
+.blogr__navbar--active {
+  display: block;
 }
 @media (min-width: 1000px) {
   .blogr__navbar {
@@ -130,6 +138,9 @@ picture {
   text-decoration: none;
   color: white;
 }
+.blogr__list-link.open-arrow::after {
+  transform: rotate(180deg);
+}
 @media (min-width: 1000px) {
   .blogr__list {
     margin: 1rem;
@@ -152,6 +163,9 @@ picture {
     color: white;
     text-decoration: unset;
   }
+  .blogr__list-link.open-arrow::after {
+    transform: rotate(180deg);
+  }
   .blogr__list-wrapper {
     display: flex;
     min-width: 30rem;
@@ -165,6 +179,7 @@ picture {
   padding: 1.5rem;
   list-style: none;
   font-size: 1.8rem;
+  display: none;
 }
 .blogr__sublist--footer {
   margin: 2rem 0 5rem 0;
@@ -185,6 +200,9 @@ picture {
   text-decoration: none;
   color: #c8c8cb;
 }
+.blogr__sublist--active {
+  display: block;
+}
 @media (min-width: 1000px) {
   .blogr__sublist {
     text-align: left;
@@ -195,9 +213,6 @@ picture {
   .blogr__sublist--footer {
     margin: 3rem 0 5rem 0;
   }
-  .blogr__sublist--active {
-    display: block;
-  }
   .blogr__sublist-link:hover {
     font-weight: 600;
   }
@@ -206,6 +221,9 @@ picture {
   }
   .blogr__sublist-link--footer:hover {
     text-decoration: underline;
+  }
+  .blogr__sublist--active {
+    display: block;
   }
 }
 .blogr__heading-buttons {
