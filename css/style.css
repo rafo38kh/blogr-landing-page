@@ -129,7 +129,7 @@ picture {
   position: relative;
 }
 .blogr__list-link:visited::after, .blogr__list-link:link::after {
-  content: url("./images/icon-arrow-dark.svg");
+  content: url("../images/icon-arrow-dark.svg");
   position: absolute;
   left: 110%;
   bottom: 5%;

@@ -1,6 +1,6 @@
 # Frontend Mentor - Blogr Landing Page Solution
 
-This is a solution to the [Blogr Landing Page Challenge on Frontend Mentor]({LINK})
+This is a solution to the [Blogr Landing Page Challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/blogr-landing-page-EX2RLAApP)
 
 ## Table of contents
 
@@ -41,6 +41,8 @@ Your users should be able to:
 - Semantic HTML5 markup
 - SCSS custom properties
 - CSS Flexbox
+- CSS Grid
+- Vanilla Js
 - Mobile-first workflow
 
 ## Author
