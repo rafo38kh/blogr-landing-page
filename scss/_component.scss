@@ -10,9 +10,6 @@
     background-position: bottom -63vh left -44vh, bottom center;
     margin-bottom: 13rem;
   }
-
-  &__heading {
-  }
   &__mobile {
     display: flex;
     justify-content: space-between;
@@ -107,27 +104,15 @@
       }
     }
 
-    &-wrapper {
-    }
-
     @media (min-width: 1000px) {
       margin: 1rem;
-
-      &--footer {
-      }
-
-      &-item {
-        &--footer {
-        }
-      }
-
       &-link {
         &:visited,
         &:link {
           color: $color-secondary-light;
           font-size: 1.6rem;
           &::after {
-            content: url(./images/icon-arrow-light.svg);
+            content: url(../images/icon-arrow-light.svg);
           }
         }
         transition: all 0.3s;
@@ -197,11 +182,6 @@
         margin: 3rem 0 5rem 0;
       }
 
-      &-item {
-        &--footer {
-        }
-      }
-
       &-link {
         &:hover {
           font-weight: 600;
@@ -227,7 +207,6 @@
     margin-bottom: 2rem;
     border-top: 1px solid #efeff1;
     padding: 3rem;
-    // display: none;
     @media (min-width: 1000px) {
       border-top: unset;
       flex-direction: row;
@@ -238,7 +217,6 @@
     padding: 3rem 3rem 16rem 3rem;
     color: $color-secondary;
     text-align: center;
-    // margin-bottom: 13rem;
   }
 
   &__heading-title {
@@ -344,10 +322,7 @@
 
   //   Main first section
 
-  &__main {
-  }
   &__future {
-    // text-align: center;
     &-title {
       color: $color-tertiary-dark;
       font-size: 2.8rem;
@@ -355,13 +330,6 @@
       margin: 3rem 0 2rem 0;
       text-align: center;
     }
-
-    &-box {
-    }
-
-    &-picture {
-    }
-
     &-img {
       width: 100%;
       @media (min-width: 600px) {
@@ -404,8 +372,7 @@
         grid-template-columns: repeat(2, 1fr);
         position: relative;
       }
-      &-picture {
-      }
+
       &-img {
         position: absolute;
         left: 82rem;
@@ -491,21 +458,12 @@
         position: absolute;
         bottom: -23rem;
       }
-      &-text {
-      }
-      &-title {
-      }
-      &-descr {
-      }
     }
   }
 
   //   Main third section
 
   &__laptop {
-    &-box {
-    }
-
     &-picture {
       margin: 5rem 0;
     }
