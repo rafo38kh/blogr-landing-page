@@ -507,6 +507,7 @@ picture {
   background-color: #25252d;
   border-radius: 0 10rem 0 0;
   margin-top: 13rem;
+  text-align: center;
 }
 .blogr__menu {
   display: flex;
@@ -524,6 +525,24 @@ picture {
     text-align: left;
     gap: 15rem;
   }
+}
+
+.attribution {
+  width: 100%;
+  font-size: clamp(1rem, 2vw, 1.2rem);
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 1rem;
+  color: white;
+  transition: all 0.2s;
+}
+.attribution__link:link, .attribution__link:visited {
+  text-transform: uppercase;
+  color: white;
+  transition: all 0.2s;
+}
+.attribution__link:hover, .attribution__link:active {
+  color: #fedccd;
 }
 
 /*# sourceMappingURL=style.css.map */

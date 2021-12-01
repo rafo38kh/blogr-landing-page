@@ -503,6 +503,7 @@
     background-color: $color-primary;
     border-radius: 0 10rem 0 0;
     margin-top: 13rem;
+    text-align: center;
   }
   &__menu {
     display: flex;
@@ -518,5 +519,27 @@
       text-align: left;
       gap: 15rem;
     }
+  }
+}
+
+.attribution {
+  width: 100%;
+  font-size: clamp(1rem, 2vw, 1.2rem);
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 1rem;
+  color: $color-secondary;
+  transition: all 0.2s;
+
+  &__link:link,
+  &__link:visited {
+    text-transform: uppercase;
+    color: $color-secondary;
+    transition: all 0.2s;
+  }
+
+  &__link:hover,
+  &__link:active {
+    color: $color-secondary-light;
   }
 }
