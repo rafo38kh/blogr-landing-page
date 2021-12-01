@@ -21,7 +21,7 @@
   </head>
   <body>
     <div class="blogr">
-      <section class="blogr__first">
+      <section class="blogr__first" aria-label="Header">
         <header class="blogr__heading">
           <div class="blogr__container">
             <div class="blogr__mobile">
@@ -31,7 +31,7 @@
                 aria-hidden="true"
                 class="blogr__logo"
               />
-              <button class="blogr__button">
+              <button class="blogr__button" aria-label="Hamburger">
                 <img
                   src="./images/icon-hamburger.svg"
                   alt="hamburger"
@@ -122,7 +122,7 @@
       </section>
 
       <main class="blogr__main">
-        <section class="blogr__future">
+        <section class="blogr__future" aria-label="future section">
           <h1 class="blogr__future-title blogr__future-title--first">
             Designed for the future
           </h1>
@@ -141,9 +141,9 @@
             </picture>
 
             <div class="blogr__future-text">
-              <h3 class="blogr__future-title">
+              <h2 class="blogr__future-title">
                 Introducing an extensible editor
-              </h3>
+              </h2>
               <p class="blogr__future-descr">
                 Blogr features an exceedingly intuitive interface which lets you
                 focus on one thing: creating content. The editor supports
@@ -152,7 +152,7 @@
                 plugins and themes provide easy ways to add functionality or
                 change the looks of a blog.
               </p>
-              <h3 class="blogr__future-title">Robust content management</h3>
+              <h2 class="blogr__future-title">Robust content management</h2>
               <p class="blogr__future-descr">
                 Flexible content management enables users to easily move through
                 posts. Increase the usability of your blog by adding customized
@@ -163,7 +163,10 @@
           </div>
         </section>
 
-        <section class="blogr__infrastructure">
+        <section
+          class="blogr__infrastructure"
+          aria-label="infrastructure section"
+        >
           <div class="blogr__container blogr__container--mobile">
             <img
               src="./images/illustration-phones.svg"
@@ -173,9 +176,9 @@
             />
           </div>
           <div class="blogr__infrastructure-text">
-            <h3 class="blogr__infrastructure-title">
+            <h2 class="blogr__infrastructure-title">
               State of the Art Infrastructure
-            </h3>
+            </h2>
             <p class="blogr__infrastructure-descr">
               With reliability and speed in mind, worldwide data centers provide
               the backbone for ultra-fast connectivity. This ensures your site
@@ -185,7 +188,7 @@
           </div>
         </section>
 
-        <section class="blogr__laptop">
+        <section class="blogr__laptop" aria-label="laptop section">
           <div class="blogr__laptop-box">
             <picture class="blogr__laptop-picture">
               <source
@@ -201,7 +204,7 @@
             </picture>
 
             <div class="blogr__future-text blogr__future-text--right">
-              <h3 class="blogr__future-title">Free, open, simple</h3>
+              <h2 class="blogr__future-title">Free, open, simple</h2>
               <p class="blogr__future-descr">
                 Blogr is a free and open source application backed by a large
                 community of helpful developers. It supports features such as
@@ -210,7 +213,7 @@
                 Analytics. The architecture is clean and is relatively easy to
                 learn.
               </p>
-              <h3 class="blogr__future-title">Powerful tooling</h3>
+              <h2 class="blogr__future-title">Powerful tooling</h2>
               <p class="blogr__future-descr">
                 Batteries included. We built a simple and straightforward CLI
                 tool that makes customization and deployment a breeze, but
@@ -228,7 +231,6 @@
             alt=""
             aria-hidden="true"
             class="blogr__logo blogr__logo--footer"
-            s
           />
 
           <div class="blogr__menu">
