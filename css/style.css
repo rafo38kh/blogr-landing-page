@@ -52,11 +52,11 @@ picture {
 }
 
 .blogr__first {
-  background-image: url(./images/bg-pattern-intro.svg), linear-gradient(to left top, #ff3d54, #ff8f70);
+  background-image: url(../images/bg-pattern-intro.svg), linear-gradient(to left top, #ff3d54, #ff8f70);
   background-repeat: no-repeat;
-  background-size: 140rem, cover;
+  background-size: 130rem, cover;
   border-radius: 0 0 0 10rem;
-  background-position: bottom -63vh left -44vh, bottom center;
+  background-position: bottom -53vh left 46vh, bottom center;
   margin-bottom: 13rem;
 }
 .blogr__mobile {
